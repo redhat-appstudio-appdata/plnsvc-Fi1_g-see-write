@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: ciimagesstatic-checks-pipeline-service-obmz
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:rarnaud-tenant-ciimagesstatic-checks-pipeline-service-obmz
+      - image: quay.io/redhat-appstudio/user-workload@sha256:d6d1945f76be561aa18e55733251ea727b439753846025724d56e7d4770a1e8e
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
